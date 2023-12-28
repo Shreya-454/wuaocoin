@@ -8,7 +8,7 @@ import arrow4 from '../assets/images/head-arrow4.png'
 const Header = () => {
   return (
     <div>
-      <header className='lg:pb-80 md:pb-20 pb-10 '>
+      <header className='lg:pb-96 md:pb-20 pb-10 '>
         <Nav />
         <img src={arrow1} alt="a1" className='absolute top-[10%] left-[44%]' />
         <img src={arrow3} alt="a3" className='absolute left-[44%] bottom-[-3%]' />
