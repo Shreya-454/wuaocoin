@@ -10,9 +10,9 @@ const Header = () => {
     <div>
       <header className='lg:pb-96 md:pb-20 pb-10 '>
         <Nav />
-        <img src={arrow1} alt="a1" className='absolute top-[10%] left-[44%]' />
-        <img src={arrow3} alt="a3" className='absolute left-[44%] bottom-[-3%]' />
-        <img src={arrow4} alt="a4" className='absolute right-[8%] bottom-[-30%]' />
+        <img src={arrow1} alt="a1" className='absolute top-[20%] left-[44%]' />
+        <img src={arrow3} alt="a3" className='absolute left-[44%] bottom-[-15%]' />
+        <img src={arrow4} alt="a4" className='absolute right-[8%] bottom-[-43%]' />
         <section className=' flex flex-col lg:pt-40 md:pt-20 pt-10 '>
           <div className="container max-w-[1140px] mx-auto px-3 flex-grow flex flex-col justify-center relative">
             <img src={arrow2} alt="a2" className='absolute left-[-10%] bottom-[-2%]'/>
