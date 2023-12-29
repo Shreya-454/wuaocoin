@@ -45,7 +45,7 @@ const Sec5 = () => {
   const cards = myArray.map((myArray) => (
     <div key={myArray.id} className=" md:w-1/3 sm:w-1/2 w-full xl:w-1/6 mb-4 xl:mb-0 flex justify-center">
       <div
-        className={`max-w-[206.87px] ${myArray.bg} rounded-[14.91px] pt-2 pl-3 pb-11`}
+        className={`max-w-[206.87px] ${myArray.bg} rounded-[14.91px] pt-2 pl-3 pb-11 hover:scale-110 duration-500`}
       >
         <p className="text-white opacity-50 font-montserrat font-bold lg:text-[27.96px] text-xl leading-[34.08px] mb-5">
           {myArray.num}

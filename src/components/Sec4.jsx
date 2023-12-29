@@ -18,7 +18,7 @@ const Sec4 = () => {
                               <button className="bg-white rounded-full py-[13px] px-5 hover:bg-transparent border border-white group duration-500"><span className="bg-text-gradient text-transparent bg-clip-text font-montserrat lg:text-base text-[12px] font-semibold  group-hover:text-white">Read WhitePaper</span></button>
                           </div>
               </div>
-              <div className="md:w-1/3 w-full flex justify-center md:justify-start">
+              <div className="md:w-1/3 w-full flex justify-center md:justify-end">
                   <img src={sec4img2} alt="img4" />
               </div>
       </div>
